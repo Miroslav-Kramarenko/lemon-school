@@ -1,0 +1,22 @@
+p.left{
+	text-align: left;
+	border-left: 4px dashed purple;
+}
+li{
+	text-align: left;
+	color: green;
+	font-size: 1.2em;
+}
+a{
+	color:green;
+}
+h1{
+	color: #DC143C;
+}
+img{
+	border: 4px double #FF00FF;
+	width: 300px;
+}
+figcaption{
+	font-size: 1.2em;
+}
