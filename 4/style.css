@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.products {
+	font-size: 0;
+	margin: 50px -10px;
+}
+.product{
+	height: 100px;
+	background-color: #000;
+	width: 33.3333%;
+	margin-bottom: 15px;
+	border-right:  solid #fff;
+	display:inline-block; 
+ }
+ .wrraper{
+  overflow: hidden;
+   padding: 0;
+ }
