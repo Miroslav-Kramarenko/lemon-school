@@ -9,43 +9,51 @@ header{
 	height: 50px;
 	background: #FFE680;
 }
-aside{
-	color: #fff;
-	text-align: center;
+.container3 {
+    float:left;
+    width:100%;
+    background:green;
+    overflow:hidden;
+    position:relative;
 }
-.container{
-	width: 100%;
-	float: left;
-	overflow: hidden;
-	margin-right: -100%;
+.container2 {
+    float:left;
+    width:100%;
+    background:yellow;
+    position:relative;
+    right:30%;
 }
+.container1 {
+    float:left;
+    width:100%;
+    background:red;
+    position:relative;
+    right:40%;
 }
-.left{
-	float: left;
-	width: 250px;
-	position: relative;
-	background: #B5E3FF;
-	left: -250px;
-	color: black;
-
+.col1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:72%;
+    overflow:hidden;
+    text-align: center;
 }
-.right{
-	float: right;
-	margin-right: -250px;
-	width: 250px;
-	position: relative;
-	background: #FFACAA;
-	color: black;
+.col2 {
+    float:left;
+    width:36%;
+    position:relative;
+    left:76%;
+    overflow:hidden;
+}
+.col3 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+    text-align: center;
+}
 	
-}
-.content {
-	padding: 0 20px;
-	
-}
-.box{
-	border-left: 250px solid #B5E3FF;
-	border-right: 250px solid #FFACAA;
-	position: relative;
 }
 .box::after {
 	content: "";
@@ -57,8 +65,3 @@ footer{
 	background-color: #000;
 	color: #fff;
 	padding: 25px;
-}
-.wrra0per {
-	width: 100%;
-	min-width: 1000px;
-}
