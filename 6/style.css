@@ -53,15 +53,13 @@ header{
     overflow:hidden;
     text-align: center;
 }
-	
-}
 .box::after {
 	content: "";
 	display: block;
 	clear: both;
-
 }
 footer{
 	background-color: #000;
 	color: #fff;
 	padding: 25px;
+}
