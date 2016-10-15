@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+
+}
+li {
+    list-style-type: none;
+    display:block;
+    /*position: relative;*/
+}
+.star li::before{
+	content: "★ ";
+
+}
+.heart li::before{
+	content: "❤ "
+}
+.sun li::before{
+	content: "☀ ";
+}
+a{
+	color: #000;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+}
+a:hover::before{
+	width: 100%;
+}
+a::before{
+	content: "";
+	position: absolute;
+	width: 50%;
+	height: 1px;
+	background-color: #000;
+	bottom: 0;
+	left: 0;
+	transition: all .3s
+
+}
