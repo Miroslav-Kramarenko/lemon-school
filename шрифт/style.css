@@ -1,0 +1,16 @@
+@import "fonts/fonts.css";
+h1{
+	font-weight: normal;
+}
+.bnb{
+	font-family: 'bnb';
+}
+.bnl{
+	font-family:'bnl' ;
+}
+.bnr{
+	font-family: 'bnr';
+}
+.bnt{
+	font-family: 'bnt';
+}

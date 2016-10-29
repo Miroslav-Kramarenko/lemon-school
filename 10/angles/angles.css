@@ -1,0 +1,28 @@
+.wrraper{
+	width: 300px;
+	height: 80px;
+	background: green;
+	position: relative;
+}
+.angles::before,
+.angles::after{
+ content: "";
+  position: absolute;
+  width: 10px;
+  background: green;
+  bottom: 5px;
+  top: 5px;
+}
+
+.angles::before {
+  left: -5px;
+}
+
+.angles::after {
+  right: -5px;
+}
+p{
+	color: #fff;
+	padding-top: 25px;
+	padding-left: 25px;
+}

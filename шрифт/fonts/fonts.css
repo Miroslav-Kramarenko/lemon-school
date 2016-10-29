@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'bnb';
+    src: url('bebasneue_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bnl';
+    src: url('bebasneue_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bnr';
+    src: url('bebasneue_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bnt';
+    src: url('bebasneue_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

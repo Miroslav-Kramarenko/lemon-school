@@ -145,15 +145,18 @@ hr{
 	font-size: 16px;
 }
 .right-text{
-	float: right;
+	/*float: right;*/
 	padding-right: 335px;
 	margin-top: -60px;
+	position: absolute;
+	top: 50px;
 }
 .right-tabl{
 	font-size: 0;
 	width: 70%;
 	padding: 20px;
 	text-align: left;
+	position: absolute;
 	/*float: left;*/
 
 }
